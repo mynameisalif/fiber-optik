@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  color: white;
+}
+.body {
+  margin-top: -50px;
+  height: 10000px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.aspirasi-mahasiswa .content .content-1 .penjelsan-1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #400264;
+  font-size: 700;
+}
+.aspirasi-mahasiswa .content .content-1 .content-2 {
+  text-align: center;
+  background-color: #400264;
+  margin-bottom: 30px;
+  font-size: 500;
+}
+.aspirasi-mahasiswa .content .komentar .isi-komentar {
+  margin-top: 30px;
+  background-color: #400264;
+}
+.aspirasi-mahasiswa .content .komentar .isi-komentar img {
+  margin-right: 10px;
+  width: 32px;
+  background-color: #400264;
+}
+@media (max-width: 750px) {
+  .body {
+    height: 1000vh;
+  }
+}
